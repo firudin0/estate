@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: transparent;
+}
+header .navbar {
+  width: 85%;
+  height: auto;
+  margin: auto;
+}
+header .navbar .container-fluid .navbar-brand .estate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header .navbar .container-fluid .navbar-brand .estate h1 {
+  color: white;
+  font-size: 28px;
+}
+header .navbar .container-fluid #navbarNavDropdown {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header .navbar .container-fluid #navbarNavDropdown ul li a {
+  color: #fff;
+  font-weight: 700;
+}
+header .navbar .container-fluid #navbarNavDropdown .estatenumber {
+  width: 300px;
+  height: 50px;
+  border: 0;
+  background-color: #FD784F;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .navbar .container-fluid #navbarNavDropdown .estatenumber h6 {
+  font-size: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+}
+
+#findyourhome {
+  background-image: url(/assets/img/home_slider_bcg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#findyourhome h1 {
+  color: #fff;
+  font-size: 100px;
+}
+
+#featuredProperties {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#featuredProperties .featuredText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#featuredProperties .featuredText .featuredLine {
+  width: 3px;
+  height: 31px;
+  background-color: #FD784F;
+}
+#featuredProperties .featuredText h1 {
+  font-size: 25px;
+  font-weight: 700;
+}
+#featuredProperties .featuredText p {
+  font-weight: 700;
+  color: #B0B3C5;
+}
+#featuredProperties #jsdata {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+#featuredProperties #jsdata .childbtn {
+  width: 90px;
+  height: 40px;
+  background-color: blue;
+  color: white;
+  border: none;
+}
+#featuredProperties #jsdata img {
+  width: 200px;
+  height: 200px;
+}
+
+#clientsTestimonials {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("/assets/img/testimonials_background.jpg");
+}
+#clientsTestimonials .clientsText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  gap: 30px;
+}
+#clientsTestimonials .clientsText .clients {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#clientsTestimonials .clientsText .clients .clientsLine {
+  width: 3px;
+  height: 31px;
+  background-color: #FD784F;
+}
+#clientsTestimonials .clientsText .clients h1 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+#clientsTestimonials .clientsText .clients h6 {
+  font-weight: 700;
+  color: #B0B3C5;
+}
+#clientsTestimonials .clientsText .lorem p {
+  color: #fff;
+  font-size: large;
+}
+#clientsTestimonials .clientsText .smith {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+#clientsTestimonials .clientsText .smith img {
+  border-radius: 50%;
+}
+#clientsTestimonials .clientsText .smith h4 {
+  color: #FD784F;
+  font-size: 16px;
+}
+#clientsTestimonials .clientsText .smith h5 {
+  color: white;
+  font-size: 12px;
+}
+
+#citiesClientsPrefer {
+  text-align: center;
+  margin-bottom: 10%;
+}
+#citiesClientsPrefer .citiesAll .container .clientsCard {
+  position: relative;
+}
+#citiesClientsPrefer .citiesAll .container .clientsCard img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+#citiesClientsPrefer .citiesAll .container .clientsCard h5 {
+  left: 15%;
+  position: absolute;
+  padding: 10px 10px;
+  border: 0;
+  background-color: #FD784F;
+  color: #fff;
+  bottom: 0;
+}
+#citiesClientsPrefer .citiesAll .citiesWord {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#citiesClientsPrefer .citiesAll .citiesWord .line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 3px;
+  height: 31px;
+  background-color: #FD784F;
+}
+#citiesClientsPrefer .citiesAll .citiesWord p {
+  color: gray;
+}
+
+footer {
+  width: 100%;
+  height: 40px;
+  background-color: #07122C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  color: white;
+}
